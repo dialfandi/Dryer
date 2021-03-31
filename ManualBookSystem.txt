@@ -1,0 +1,13 @@
+jalan sistem pada dryer
+
+C = Next 
+D = Back
+# = Home
+
+Menu dimulai dengan menampilkan Tgl/Bulan/Thn dan waktu
+
+Ketika D(Next) ditekan maka akan muncul pilihan 1 dan 2
+>>Untuk masuk ke sub menu 1 dan 2 tekan sesuai angka pada keypad (Ketika sudah berada pada menu ini hanya bisa dilakukan perintah dengan menekan 1 dan 2 untuk masuk ke sub menu)
+
+Ketika sudah berada dalam sub menu untuk kembali tekan D(Back) untuk kembali ke menu 1
+tekan next lagi maka akan ada pilihan 3 dan 4 begitu seterusnya hingga menu terakirr dengan pilihan 5. 

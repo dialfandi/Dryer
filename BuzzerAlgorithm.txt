@@ -1,0 +1,30 @@
+jika suhu berada diatas 45 derajat
+>> Maka Buzzer akan berbunyi sekali selama 5 detik
+
+Setelah 5 detik maka Buzzer akan mati
+
+>>Suhu naik hingga >45
+>>Kemudian Buzzer dinyalakan
+>>Dihitung mulai detik 1, 2, 3, 4
+
+Ketika hitungan lebih dari 4 maka buzzer akan mati
+
+Maka dibutuhkan hitungan infinite untuk melakukan perhitungan ini
+
+berarti 
+setiap interval 1 detik maka ditandai dengan nilai 1
+kenaikan interval 2 maka ditandai dengan nilai 2
+kenaikan interval 3 maka ditandai dengan nilai 3
+
+WaktuRata2 - WaktuSebelumnya = durasi
+waktuRata2 = WaktuSebelumnya;
+
+jika (Suhu lebih dari 45){
+	for(int state == 0; state kurang dari 6; state count++){
+	Buzzerdinyalakan;
+	jika (state > 4){
+		MakaBuzzerdimatikan
+	}
+}
+
+}
